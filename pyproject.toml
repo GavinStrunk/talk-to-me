@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "talk-to-me"
+version = "0.1.0"
+description = ""
+authors = ["Gavin Strunk <gavin.strunk@ssci.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.0"
+sounddevice = "^0.5.1"
+speechrecognition = "^3.12.0"
+webrtcvad = "^2.0.10"
+pyaudio = "^0.2.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
